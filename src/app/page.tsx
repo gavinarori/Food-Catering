@@ -39,6 +39,70 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
+      <div className="absolute flex flex-col items-center gap-[64px]  h-[919px] left-1/2 transform -translate-x-1/2 w-[1440px] top-[160px]">
+        <div className="flex flex-col items-center gap-[32px] w-[696px] h-[344px]">
+          <div className="flex flex-col items-center isolate p-0 w-[696px] h-[176px]">
+          <h1 className=" w-[696px] h-[176px]  text-center text-[57px] leading-[88px] font-bold font-['inter'] text-[#323434]">
+              Your Favorite Food Delivered Hot & Fresh
+          </h1>
+          <div className="absolute w-[219.21px] h-[119.43px] left-[840px] top-[88px]  ">
+          <svg width="225" height="124" viewBox="0 0 225 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M222.189 40.9974C216.472 51.7321 202.749 61.8299 184.8 70.4238M184.8 70.4238C118.722 102.062 -4.63017 113.318 3.34313 60.9357C17.1072 -29.4893 205.195 -7.50834 184.8 70.4238ZM184.8 70.4238C179.869 89.2646 151.574 111.434 101.074 121.434" stroke="#9AD983" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+          </div>
+          </div>
+          <p className=" w-[667px] h-[48px] text-center text-[16px] leading-6 font-normal font-['inter'] text-[#888888]">
+              Best food catering service in your town. We are ready to serve your desire. The <br /> ultimate destination for all your healthy food delivery needs.
+          </p>
+          <div className="flex flex-row items-center gap-4 w-[362px] h-[56px] rounded-[100px]">
+            <button className="flex justify-center items-center gap-2 p-4 w-[173px] h-[56px] bg-[#9AD983] shadow-lg rounded-[12px]">
+              <p className="  text-white ">order now</p>
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="6.5" cy="7" r="3" stroke="white" stroke-width="1.5" stroke-linecap="square"/>
+                  <path d="M12.5 7H21.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="18.5" cy="17" r="3" transform="rotate(-180 18.5 17)" stroke="white" stroke-width="1.5" stroke-linecap="square"/>
+                  <path d="M12.5 17H3.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </button>
+            <button className="flex justify-center items-center gap-2 p-4 w-[173px] h-[56px] bg-gray-900 rounded-[12px]">
+            <p className="  text-white">see the menus</p>
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-row items-center gap-[6px] w-[1562.05px] h-[439px]">
+          <div className="w-[298px] h-[357px] ml-[100px]">
+          <img src="/Rectangle.png" alt="" />
+          </div>
+          <div className="w-[298px] h-[357px] mt-[100px]">
+          <img src="/Rectangle (1).png" alt="" />
+          </div>
+          <div className="w-[298px] h-[400px]">
+          <img src="/Rectangle (2).png" alt="" />
+          </div>
+          <div className="w-[273.17px] h-[273.17px] ml-[50px]">
+          <img src="/Vector.png" alt="" />
+          </div>
+          <div className="w-[220.61px] h-[222.09px] ml-[40px]">
+          <img src="/Vector (1).png" alt="" />
+          </div>
+        </div>
+        <div className="flex flex-row justify-center -mt-7 items-center gap-[8px] p-0 w-[358px] h-8">
+        <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="0.000610352" width="24" height="8" rx="4" fill="#9AD983"/>
+        </svg>
+        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="0.000610352" width="8" height="8" rx="4" fill="#F5F5F5"/>
+        </svg>
+        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="0.000610352" width="8" height="8" rx="4" fill="#F5F5F5"/>
+        </svg>
+        </div>
+      </div>
+
+
+      
     </main>
   );
 }
