@@ -102,7 +102,304 @@ export default function Home() {
       </div>
 
 
-      
+      <div className="absolute flex flex-col items-start p-0 w-[1440px] h-[4199px] top-[1100px]">
+        <div className="flex flex-col justify-center items-center gap-[20px] px-[64px] py-[100px] w-[1440px]  h-[564px]">
+          <div className="flex flex-col justify-center items-center gap-2 w-[492px] h-[108px]">
+            <h1 className="font-['Inter'] text-center font-semibold text-[45px] text-[#323434] w-[492px] h-[52px]">How it works </h1>
+            <p className="font-['Inter'] font-medium text-[16px] text-center top-[60px] leading-6 text-[#888888] w-[492px] h-[48px]">This lesson provides a basic framework for conducting a <br />recipe demonstration</p>
+          </div>
+          <div className="flex-row flex gap-8 mt-12">
+          <div className="flex flex-row flex-wrap items-start justify-start order-1 gap-8 w-[286px]  h-[280px] shadow-md">
+            <div className="flex flex-col items-start px-8 py-6 gap-14 w-[286px] h-[280px] bg-[#9AD983] rounded-[12px]">
+              <div className="flex lex-row items-center justify-center w-10 h-10 bg-[#323434] rounded-[40px]">
+                <h1 className="w-[23px] h-6 text-white font-['Inter'] font-medium text-[16px] leading-[24px] "> 04.</h1>
+              </div>
+              <div className="flex flex-col items-start gap-4 w-[238px] h-[120px]">
+              <h1 className="w-[208px] h-[32px] font-semibold text-[24px] leading-8 text-[#323434] font-['Inter']" >
+              Fast Delivery
+              </h1>
+              <p className="font-normal text-base leading-6 tracking-[0.5px] text-[#323434]">Offers fresh foods and <br /> calculate calories, portion size.</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row flex-wrap items-start justify-start p-0 gap-8 w-[286px] left-[318px]  h-[280px] shadow-md">
+            <div className="flex flex-col items-start px-8 py-6 gap-14 w-[286px] h-[280px] bg-[#9AD983] rounded-[12px]">
+              <div className="flex lex-row items-center justify-center w-10 h-10 bg-[#323434] rounded-[40px]">
+                <h1 className="w-[23px] h-6 text-white font-['Inter'] font-medium text-[16px] leading-[24px] "> 01.</h1>
+              </div>
+              <div className="flex flex-col items-start gap-4 w-[238px] h-[120px]">
+              <h1 className="w-[208px] h-[32px] font-semibold text-[24px] leading-8 text-[#323434] font-['Inter']" >
+              Fresh & Nutritious 
+              </h1>
+              <p className="font-normal text-base leading-6 tracking-[0.5px] text-[#323434]">Offers fresh foods and <br /> calculate calories, portion size.</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row flex-wrap items-start justify-start p-0 gap-8 w-[286px]  h-[280px] shadow-md">
+            <div className="flex flex-col items-start px-8 py-6 gap-14 w-[286px] h-[280px] bg-[#9AD983] rounded-[12px]">
+              <div className="flex lex-row items-center justify-center w-10 h-10 bg-[#323434] rounded-[40px]">
+                <h1 className="w-[23px] h-6 text-white font-['Inter'] font-medium text-[16px] leading-[24px] "> 02.</h1>
+              </div>
+              <div className="flex flex-col items-start gap-4 w-[238px] h-[120px]">
+              <h1 className="w-[208px] h-[32px] font-semibold text-[24px] leading-8 text-[#323434] font-['Inter']" >
+              Pick Meals
+              </h1>
+              <p className="font-normal text-base leading-6 tracking-[0.5px] text-[#323434]">Offers fresh foods and <br /> calculate calories, portion <br /> size.</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row flex-wrap items-start justify-start p-0 gap-8 w-[286px] left-[318px]  h-[280px] shadow-md">
+            <div className="flex flex-col items-start px-8 py-6 gap-14 w-[286px] h-[280px] bg-[#9AD983] rounded-[12px]">
+              <div className="flex lex-row items-center justify-center w-10 h-10 bg-[#323434] rounded-[40px]">
+                <h1 className="w-[23px] h-6 text-white font-['Inter'] font-medium text-[16px] leading-[24px] "> 03.</h1>
+              </div>
+              <div className="flex flex-col items-start gap-4 w-[238px] h-[120px]">
+              <h1 className="w-[208px] h-[32px] font-semibold text-[24px] leading-8 text-[#323434] font-['Inter']" >
+              Place A Order
+              </h1>
+              <p className="font-normal text-base leading-6 tracking-[0.5px] text-[#323434]">Offers fresh foods and <br /> calculate calories, portion <br /> size.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div className="flex absolute mt-[500px] flex-col justify-center items-center px-[100px] py-[64px] gap-12 w-[1440px] h-[682px]">
+          <div className="flex flex-col justify-center items-center gap-2 w-[492px] h-[108px]">
+            <h1 className="font-['Inter'] font-[700] text-[45px] leading-[52px] text-center text-[#323434] w-[492px] h-[52px]">Our special Catering</h1>
+            <p className="w-[492px] h-[48px] font-['Inter'] text-center text-[16px] leading-[24px] tracking-[0.15px] ">This lesson provides a basic framework for conducting a <br /> recipe demonstration</p>
+          </div>
+
+          <div className="flex-row flex gap-8">
+          <div className="flex flex-row flex-wrap items-start content-start gap-8 w-[222.4px] h-[310px]">
+            <div className=" flex flex-col justify-end items-center p-0 isolate w-[222.4px] h-[310px]">
+              <div className="ml-7 -mt-[20px] h-[170px] w-[222.4px]">
+                <img src="/img-1.png" className="absolute" alt="" />
+              </div>
+              <div className="flex flex-col justify-end items-center gap-[10px] w-[222.4px] h-[204px] rounded-[12px] bg-[#F5F5F5]">
+                <p className="w-[206.4px]  py-[70px] h-[40px] font-['Inter'] font-semibold not-italic text-[14px] leading-[20px] tracking-[0.1px] text-[#323434] ">Bhuna Khichuri and Thai Chiken</p>
+                <div className="flex flex-row justify-between items-center p-0 gap-[10px] w-[206.4px] h-[16px]">
+                  <div className="flex flex-row items-center p-0 gap-1 w-[38px] h-4 ">
+                    <div className="flex flex-row items-start p-0 -mt-[20px] w-4 h-4 ">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.63678 2.78762C7.77479 2.4884 7.8438 2.3388 7.94983 2.31423C7.98284 2.30658 8.01716 2.30658 8.05017 2.31423C8.1562 2.3388 8.22521 2.4884 8.36322 2.78762L9.59904 5.46687C9.63967 5.55496 9.65999 5.599 9.69426 5.62969C9.70553 5.63979 9.7178 5.64871 9.73089 5.65631C9.77067 5.67941 9.81883 5.68512 9.91517 5.69655L12.8452 6.04395C13.1724 6.08274 13.336 6.10214 13.3921 6.19539C13.4096 6.22442 13.4202 6.25706 13.4231 6.29082C13.4325 6.39925 13.3116 6.51112 13.0697 6.73484L10.9034 8.7381C10.8322 8.80397 10.7966 8.8369 10.778 8.87897C10.7719 8.89281 10.7672 8.90724 10.764 8.92204C10.7543 8.96701 10.7638 9.01458 10.7827 9.10973L11.3577 12.0037C11.4219 12.3269 11.454 12.4885 11.3827 12.5707C11.3605 12.5963 11.3327 12.6164 11.3015 12.6297C11.2013 12.6721 11.0575 12.5916 10.77 12.4307L8.19538 10.9895C8.11073 10.9421 8.0684 10.9184 8.02264 10.9138C8.00759 10.9122 7.99241 10.9122 7.97736 10.9138C7.9316 10.9184 7.88927 10.9421 7.80462 10.9895L5.23 12.4307C4.94247 12.5916 4.79871 12.6721 4.69848 12.6297C4.66728 12.6164 4.63952 12.5963 4.61731 12.5707C4.54597 12.4885 4.57808 12.3269 4.6423 12.0037L5.21732 9.10973C5.23623 9.01458 5.24568 8.96701 5.236 8.92204C5.23281 8.90724 5.22812 8.89281 5.222 8.87897C5.2034 8.8369 5.16779 8.80397 5.09657 8.7381L2.93034 6.73484C2.68842 6.51112 2.56746 6.39925 2.57686 6.29082C2.57978 6.25706 2.59039 6.22442 2.60787 6.19539C2.664 6.10214 2.82761 6.08274 3.15483 6.04395L6.08483 5.69655C6.18117 5.68512 6.22933 5.67941 6.26911 5.65631C6.2822 5.64871 6.29447 5.63979 6.30574 5.62969C6.34001 5.599 6.36033 5.55496 6.40096 5.46687L7.63678 2.78762Z" fill="#FFC804" stroke="#FFC804" stroke-width="0.666667" stroke-linejoin="round"/>
+                    </svg>
+                    <p className="absolute ml-5 w-[18px] h-4 not-italic font-['Inter] text-[12px] leading-4 text-[#323434]">4.8</p>
+                    </div>
+                    <div className="flex ml-[120px] -mt-[20px] justify-end p-0 gap-[2px] w-[65px] h-4">
+                      <div className="w-4 h-4">
+                        <img src="/Vector (2).png" alt="" />
+                      </div>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">150</p>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">Kcal</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center p-0 gap-2 w-[206.4px] h-[32px] ">
+                  <p className="w-[29px] h-[20px] font-['Inter'] not-italic font-semibold text-[14px] leading-[20px] text-[#9AD983]">BDT</p>
+                  <p className="w-[97.83px] h-[28px] font-['Inter'] not-italic font-semibold text-[22px] leading-[28px] text-[#323434]">250</p>
+                  <div className="flex flex-row items-center p-[9.14286px] gap-[4.57px] w-[32px] h-[32px] bg-[#9AD983] rounded-md ml-[70px] mb-3">
+                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="7.31431" y1="2.28572" x2="7.31431" y2="11.7143" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="2.6859" y1="7.08571" x2="12.1145" y2="7.08571" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-row flex-wrap items-start content-start gap-8 w-[222.4px] h-[310px]">
+            <div className=" flex flex-col justify-end items-center p-0 isolate w-[222.4px] h-[310px]">
+              <div className="ml-7 -mt-[20px] h-[170px] w-[222.4px]">
+                <img src="/img-2.png" className="absolute" alt="" />
+              </div>
+              <div className="flex flex-col justify-end items-center gap-[10px] w-[222.4px] h-[204px] rounded-[12px] bg-[#F5F5F5]">
+                <p className="w-[206.4px]  py-[70px] h-[40px] font-['Inter'] font-semibold not-italic text-[14px] leading-[20px] tracking-[0.1px] text-[#323434] ">Bhuna Khichuri and Thai Chiken</p>
+                <div className="flex flex-row justify-between items-center p-0 gap-[10px] w-[206.4px] h-[16px]">
+                  <div className="flex flex-row items-center p-0 gap-1 w-[38px] h-4 ">
+                    <div className="flex flex-row items-start p-0 -mt-[20px] w-4 h-4 ">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.63678 2.78762C7.77479 2.4884 7.8438 2.3388 7.94983 2.31423C7.98284 2.30658 8.01716 2.30658 8.05017 2.31423C8.1562 2.3388 8.22521 2.4884 8.36322 2.78762L9.59904 5.46687C9.63967 5.55496 9.65999 5.599 9.69426 5.62969C9.70553 5.63979 9.7178 5.64871 9.73089 5.65631C9.77067 5.67941 9.81883 5.68512 9.91517 5.69655L12.8452 6.04395C13.1724 6.08274 13.336 6.10214 13.3921 6.19539C13.4096 6.22442 13.4202 6.25706 13.4231 6.29082C13.4325 6.39925 13.3116 6.51112 13.0697 6.73484L10.9034 8.7381C10.8322 8.80397 10.7966 8.8369 10.778 8.87897C10.7719 8.89281 10.7672 8.90724 10.764 8.92204C10.7543 8.96701 10.7638 9.01458 10.7827 9.10973L11.3577 12.0037C11.4219 12.3269 11.454 12.4885 11.3827 12.5707C11.3605 12.5963 11.3327 12.6164 11.3015 12.6297C11.2013 12.6721 11.0575 12.5916 10.77 12.4307L8.19538 10.9895C8.11073 10.9421 8.0684 10.9184 8.02264 10.9138C8.00759 10.9122 7.99241 10.9122 7.97736 10.9138C7.9316 10.9184 7.88927 10.9421 7.80462 10.9895L5.23 12.4307C4.94247 12.5916 4.79871 12.6721 4.69848 12.6297C4.66728 12.6164 4.63952 12.5963 4.61731 12.5707C4.54597 12.4885 4.57808 12.3269 4.6423 12.0037L5.21732 9.10973C5.23623 9.01458 5.24568 8.96701 5.236 8.92204C5.23281 8.90724 5.22812 8.89281 5.222 8.87897C5.2034 8.8369 5.16779 8.80397 5.09657 8.7381L2.93034 6.73484C2.68842 6.51112 2.56746 6.39925 2.57686 6.29082C2.57978 6.25706 2.59039 6.22442 2.60787 6.19539C2.664 6.10214 2.82761 6.08274 3.15483 6.04395L6.08483 5.69655C6.18117 5.68512 6.22933 5.67941 6.26911 5.65631C6.2822 5.64871 6.29447 5.63979 6.30574 5.62969C6.34001 5.599 6.36033 5.55496 6.40096 5.46687L7.63678 2.78762Z" fill="#FFC804" stroke="#FFC804" stroke-width="0.666667" stroke-linejoin="round"/>
+                    </svg>
+                    <p className="absolute ml-5 w-[18px] h-4 not-italic font-['Inter] text-[12px] leading-4 text-[#323434]">4.8</p>
+                    </div>
+                    <div className="flex ml-[120px] -mt-[20px] justify-end p-0 gap-[2px] w-[65px] h-4">
+                      <div className="w-4 h-4">
+                        <img src="/Vector (2).png" alt="" />
+                      </div>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">150</p>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">Kcal</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center p-0 gap-2 w-[206.4px] h-[32px] ">
+                  <p className="w-[29px] h-[20px] font-['Inter'] not-italic font-semibold text-[14px] leading-[20px] text-[#9AD983]">BDT</p>
+                  <p className="w-[97.83px] h-[28px] font-['Inter'] not-italic font-semibold text-[22px] leading-[28px] text-[#323434]">250</p>
+                  <div className="flex flex-row items-center p-[9.14286px] gap-[4.57px] w-[32px] h-[32px] bg-[#9AD983] rounded-md ml-[70px] mb-3">
+                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="7.31431" y1="2.28572" x2="7.31431" y2="11.7143" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="2.6859" y1="7.08571" x2="12.1145" y2="7.08571" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-row flex-wrap items-start content-start gap-8 w-[222.4px] h-[310px]">
+            <div className=" flex flex-col justify-end items-center p-0 isolate w-[222.4px] h-[310px]">
+              <div className="ml-7 -mt-[20px] h-[170px] w-[222.4px]">
+                <img src="/img-3.png" className="absolute" alt="" />
+              </div>
+              <div className="flex flex-col justify-end items-center gap-[10px] w-[222.4px] h-[204px] rounded-[12px] bg-[#F5F5F5]">
+                <p className="w-[206.4px]  py-[70px] h-[40px] font-['Inter'] font-semibold not-italic text-[14px] leading-[20px] tracking-[0.1px] text-[#323434] ">Bhuna Khichuri and Thai Chiken</p>
+                <div className="flex flex-row justify-between items-center p-0 gap-[10px] w-[206.4px] h-[16px]">
+                  <div className="flex flex-row items-center p-0 gap-1 w-[38px] h-4 ">
+                    <div className="flex flex-row items-start p-0 -mt-[20px] w-4 h-4 ">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.63678 2.78762C7.77479 2.4884 7.8438 2.3388 7.94983 2.31423C7.98284 2.30658 8.01716 2.30658 8.05017 2.31423C8.1562 2.3388 8.22521 2.4884 8.36322 2.78762L9.59904 5.46687C9.63967 5.55496 9.65999 5.599 9.69426 5.62969C9.70553 5.63979 9.7178 5.64871 9.73089 5.65631C9.77067 5.67941 9.81883 5.68512 9.91517 5.69655L12.8452 6.04395C13.1724 6.08274 13.336 6.10214 13.3921 6.19539C13.4096 6.22442 13.4202 6.25706 13.4231 6.29082C13.4325 6.39925 13.3116 6.51112 13.0697 6.73484L10.9034 8.7381C10.8322 8.80397 10.7966 8.8369 10.778 8.87897C10.7719 8.89281 10.7672 8.90724 10.764 8.92204C10.7543 8.96701 10.7638 9.01458 10.7827 9.10973L11.3577 12.0037C11.4219 12.3269 11.454 12.4885 11.3827 12.5707C11.3605 12.5963 11.3327 12.6164 11.3015 12.6297C11.2013 12.6721 11.0575 12.5916 10.77 12.4307L8.19538 10.9895C8.11073 10.9421 8.0684 10.9184 8.02264 10.9138C8.00759 10.9122 7.99241 10.9122 7.97736 10.9138C7.9316 10.9184 7.88927 10.9421 7.80462 10.9895L5.23 12.4307C4.94247 12.5916 4.79871 12.6721 4.69848 12.6297C4.66728 12.6164 4.63952 12.5963 4.61731 12.5707C4.54597 12.4885 4.57808 12.3269 4.6423 12.0037L5.21732 9.10973C5.23623 9.01458 5.24568 8.96701 5.236 8.92204C5.23281 8.90724 5.22812 8.89281 5.222 8.87897C5.2034 8.8369 5.16779 8.80397 5.09657 8.7381L2.93034 6.73484C2.68842 6.51112 2.56746 6.39925 2.57686 6.29082C2.57978 6.25706 2.59039 6.22442 2.60787 6.19539C2.664 6.10214 2.82761 6.08274 3.15483 6.04395L6.08483 5.69655C6.18117 5.68512 6.22933 5.67941 6.26911 5.65631C6.2822 5.64871 6.29447 5.63979 6.30574 5.62969C6.34001 5.599 6.36033 5.55496 6.40096 5.46687L7.63678 2.78762Z" fill="#FFC804" stroke="#FFC804" stroke-width="0.666667" stroke-linejoin="round"/>
+                    </svg>
+                    <p className="absolute ml-5 w-[18px] h-4 not-italic font-['Inter] text-[12px] leading-4 text-[#323434]">4.8</p>
+                    </div>
+                    <div className="flex ml-[120px] -mt-[20px] justify-end p-0 gap-[2px] w-[65px] h-4">
+                      <div className="w-4 h-4">
+                        <img src="/Vector (2).png" alt="" />
+                      </div>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">150</p>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">Kcal</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center p-0 gap-2 w-[206.4px] h-[32px] ">
+                  <p className="w-[29px] h-[20px] font-['Inter'] not-italic font-semibold text-[14px] leading-[20px] text-[#9AD983]">BDT</p>
+                  <p className="w-[97.83px] h-[28px] font-['Inter'] not-italic font-semibold text-[22px] leading-[28px] text-[#323434]">250</p>
+                  <div className="flex flex-row items-center p-[9.14286px] gap-[4.57px] w-[32px] h-[32px] bg-[#9AD983] rounded-md ml-[70px] mb-3">
+                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="7.31431" y1="2.28572" x2="7.31431" y2="11.7143" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="2.6859" y1="7.08571" x2="12.1145" y2="7.08571" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-row flex-wrap items-start content-start gap-8 w-[222.4px] h-[310px]">
+            <div className=" flex flex-col justify-end items-center p-0 isolate w-[222.4px] h-[310px]">
+              <div className="ml-7 -mt-[20px] h-[170px] w-[222.4px]">
+                <img src="/img-4.png" className="absolute" alt="" />
+              </div>
+              <div className="flex flex-col justify-end items-center gap-[10px] w-[222.4px] h-[204px] rounded-[12px] bg-[#F5F5F5]">
+                <p className="w-[206.4px]  py-[70px] h-[40px] font-['Inter'] font-semibold not-italic text-[14px] leading-[20px] tracking-[0.1px] text-[#323434] ">Bhuna Khichuri and Thai Chiken</p>
+                <div className="flex flex-row justify-between items-center p-0 gap-[10px] w-[206.4px] h-[16px]">
+                  <div className="flex flex-row items-center p-0 gap-1 w-[38px] h-4 ">
+                    <div className="flex flex-row items-start p-0 -mt-[20px] w-4 h-4 ">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.63678 2.78762C7.77479 2.4884 7.8438 2.3388 7.94983 2.31423C7.98284 2.30658 8.01716 2.30658 8.05017 2.31423C8.1562 2.3388 8.22521 2.4884 8.36322 2.78762L9.59904 5.46687C9.63967 5.55496 9.65999 5.599 9.69426 5.62969C9.70553 5.63979 9.7178 5.64871 9.73089 5.65631C9.77067 5.67941 9.81883 5.68512 9.91517 5.69655L12.8452 6.04395C13.1724 6.08274 13.336 6.10214 13.3921 6.19539C13.4096 6.22442 13.4202 6.25706 13.4231 6.29082C13.4325 6.39925 13.3116 6.51112 13.0697 6.73484L10.9034 8.7381C10.8322 8.80397 10.7966 8.8369 10.778 8.87897C10.7719 8.89281 10.7672 8.90724 10.764 8.92204C10.7543 8.96701 10.7638 9.01458 10.7827 9.10973L11.3577 12.0037C11.4219 12.3269 11.454 12.4885 11.3827 12.5707C11.3605 12.5963 11.3327 12.6164 11.3015 12.6297C11.2013 12.6721 11.0575 12.5916 10.77 12.4307L8.19538 10.9895C8.11073 10.9421 8.0684 10.9184 8.02264 10.9138C8.00759 10.9122 7.99241 10.9122 7.97736 10.9138C7.9316 10.9184 7.88927 10.9421 7.80462 10.9895L5.23 12.4307C4.94247 12.5916 4.79871 12.6721 4.69848 12.6297C4.66728 12.6164 4.63952 12.5963 4.61731 12.5707C4.54597 12.4885 4.57808 12.3269 4.6423 12.0037L5.21732 9.10973C5.23623 9.01458 5.24568 8.96701 5.236 8.92204C5.23281 8.90724 5.22812 8.89281 5.222 8.87897C5.2034 8.8369 5.16779 8.80397 5.09657 8.7381L2.93034 6.73484C2.68842 6.51112 2.56746 6.39925 2.57686 6.29082C2.57978 6.25706 2.59039 6.22442 2.60787 6.19539C2.664 6.10214 2.82761 6.08274 3.15483 6.04395L6.08483 5.69655C6.18117 5.68512 6.22933 5.67941 6.26911 5.65631C6.2822 5.64871 6.29447 5.63979 6.30574 5.62969C6.34001 5.599 6.36033 5.55496 6.40096 5.46687L7.63678 2.78762Z" fill="#FFC804" stroke="#FFC804" stroke-width="0.666667" stroke-linejoin="round"/>
+                    </svg>
+                    <p className="absolute ml-5 w-[18px] h-4 not-italic font-['Inter] text-[12px] leading-4 text-[#323434]">4.8</p>
+                    </div>
+                    <div className="flex ml-[120px] -mt-[20px] justify-end p-0 gap-[2px] w-[65px] h-4">
+                      <div className="w-4 h-4">
+                        <img src="/Vector (2).png" alt="" />
+                      </div>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">150</p>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">Kcal</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center p-0 gap-2 w-[206.4px] h-[32px] ">
+                  <p className="w-[29px] h-[20px] font-['Inter'] not-italic font-semibold text-[14px] leading-[20px] text-[#9AD983]">BDT</p>
+                  <p className="w-[97.83px] h-[28px] font-['Inter'] not-italic font-semibold text-[22px] leading-[28px] text-[#323434]">250</p>
+                  <div className="flex flex-row items-center p-[9.14286px] gap-[4.57px] w-[32px] h-[32px] bg-[#9AD983] rounded-md ml-[70px] mb-3">
+                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="7.31431" y1="2.28572" x2="7.31431" y2="11.7143" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="2.6859" y1="7.08571" x2="12.1145" y2="7.08571" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-row flex-wrap items-start content-start gap-8 w-[222.4px] h-[310px]">
+            <div className=" flex flex-col justify-end items-center p-0 isolate w-[222.4px] h-[310px]">
+              <div className="ml-7 -mt-[20px] h-[170px] w-[222.4px]">
+                <img src="/img-5.png" className="absolute" alt="" />
+              </div>
+              <div className="flex flex-col justify-end items-center gap-[10px] w-[222.4px] h-[204px] rounded-[12px] bg-[#F5F5F5]">
+                <p className="w-[206.4px]  py-[70px] h-[40px] font-['Inter'] font-semibold not-italic text-[14px] leading-[20px] tracking-[0.1px] text-[#323434] ">Bhuna Khichuri and Thai Chiken</p>
+                <div className="flex flex-row justify-between items-center p-0 gap-[10px] w-[206.4px] h-[16px]">
+                  <div className="flex flex-row items-center p-0 gap-1 w-[38px] h-4 ">
+                    <div className="flex flex-row items-start p-0 -mt-[20px] w-4 h-4 ">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.63678 2.78762C7.77479 2.4884 7.8438 2.3388 7.94983 2.31423C7.98284 2.30658 8.01716 2.30658 8.05017 2.31423C8.1562 2.3388 8.22521 2.4884 8.36322 2.78762L9.59904 5.46687C9.63967 5.55496 9.65999 5.599 9.69426 5.62969C9.70553 5.63979 9.7178 5.64871 9.73089 5.65631C9.77067 5.67941 9.81883 5.68512 9.91517 5.69655L12.8452 6.04395C13.1724 6.08274 13.336 6.10214 13.3921 6.19539C13.4096 6.22442 13.4202 6.25706 13.4231 6.29082C13.4325 6.39925 13.3116 6.51112 13.0697 6.73484L10.9034 8.7381C10.8322 8.80397 10.7966 8.8369 10.778 8.87897C10.7719 8.89281 10.7672 8.90724 10.764 8.92204C10.7543 8.96701 10.7638 9.01458 10.7827 9.10973L11.3577 12.0037C11.4219 12.3269 11.454 12.4885 11.3827 12.5707C11.3605 12.5963 11.3327 12.6164 11.3015 12.6297C11.2013 12.6721 11.0575 12.5916 10.77 12.4307L8.19538 10.9895C8.11073 10.9421 8.0684 10.9184 8.02264 10.9138C8.00759 10.9122 7.99241 10.9122 7.97736 10.9138C7.9316 10.9184 7.88927 10.9421 7.80462 10.9895L5.23 12.4307C4.94247 12.5916 4.79871 12.6721 4.69848 12.6297C4.66728 12.6164 4.63952 12.5963 4.61731 12.5707C4.54597 12.4885 4.57808 12.3269 4.6423 12.0037L5.21732 9.10973C5.23623 9.01458 5.24568 8.96701 5.236 8.92204C5.23281 8.90724 5.22812 8.89281 5.222 8.87897C5.2034 8.8369 5.16779 8.80397 5.09657 8.7381L2.93034 6.73484C2.68842 6.51112 2.56746 6.39925 2.57686 6.29082C2.57978 6.25706 2.59039 6.22442 2.60787 6.19539C2.664 6.10214 2.82761 6.08274 3.15483 6.04395L6.08483 5.69655C6.18117 5.68512 6.22933 5.67941 6.26911 5.65631C6.2822 5.64871 6.29447 5.63979 6.30574 5.62969C6.34001 5.599 6.36033 5.55496 6.40096 5.46687L7.63678 2.78762Z" fill="#FFC804" stroke="#FFC804" stroke-width="0.666667" stroke-linejoin="round"/>
+                    </svg>
+                    <p className="absolute ml-5 w-[18px] h-4 not-italic font-['Inter] text-[12px] leading-4 text-[#323434]">4.8</p>
+                    </div>
+                    <div className="flex ml-[120px] -mt-[20px] justify-end p-0 gap-[2px] w-[65px] h-4">
+                      <div className="w-4 h-4">
+                        <img src="/Vector (2).png" alt="" />
+                      </div>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">150</p>
+                      <p className="w-[21px] h-4 font-['Inter'] not-italic font-normal text-[12px] leading-4 text-[#323434]">Kcal</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center p-0 gap-2 w-[206.4px] h-[32px] ">
+                  <p className="w-[29px] h-[20px] font-['Inter'] not-italic font-semibold text-[14px] leading-[20px] text-[#9AD983]">BDT</p>
+                  <p className="w-[97.83px] h-[28px] font-['Inter'] not-italic font-semibold text-[22px] leading-[28px] text-[#323434]">250</p>
+                  <div className="flex flex-row items-center p-[9.14286px] gap-[4.57px] w-[32px] h-[32px] bg-[#9AD983] rounded-md ml-[70px] mb-3">
+                  <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="7.31431" y1="2.28572" x2="7.31431" y2="11.7143" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="2.6859" y1="7.08571" x2="12.1145" y2="7.08571" stroke="white" stroke-width="0.857143" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div className=" flex flex-row cursor-pointer  items-start p-0 gap-4 mt-[578px] ml-[672px] w-24 h-10 ">
+          <button className="w-10 h-10 bg-[#9AD983] rounded-[100px]">
+          <svg width="15" className="ml-3" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.5 5H2M2 5L6 9M2 5L6 1" stroke="white" stroke-width="1.5"/>
+          </svg>
+          </button>
+          <button className="w-10 h-10 bg-[#F5F5F5] rounded-[100px]">
+          <svg width="14" className="ml-3" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000488281 5L12.5005 5M12.5005 5L8.50049 1M12.5005 5L8.50049 9" stroke="#323434" stroke-width="1.5"/>
+          </svg>
+          </button>
+        </div>
+
+        <div className="flex flex-col items-start px-16 py-[100px] w-[1440px] h-[288px]">
+          <div className="flex flex-row items-start p-0 gap-8 w-[1240px] h-[160px]">
+            <div className="flex flex-row gap-8">
+              <div className="flex flex-col items-center gap-4 px-[32px] w-[286px] h-[160px] bg-[#9AD983] rounded-[16px]">
+                <h1 className="w-[113px] h-[52px] font-['Inter'] not-italic font-bold text-[45px] leading-[52px] mt-10 text-[#323434]">10K+</h1>
+                <p className="w-[170px] h-7 font-['Inter'] not-italic font-[500] text-[22px] leading-[28px]  text-[#323434]">Total customers</p>
+              </div>
+              <div className="flex flex-col items-center gap-4 px-[32px] w-[286px] h-[160px] bg-[#9AD983] rounded-[16px]">
+                <h1 className="w-[113px] h-[52px] font-['Inter'] not-italic font-bold text-[45px] leading-[52px] mt-10 text-[#323434]">09+</h1>
+                <p className="w-[209px] h-7 font-['Inter'] not-italic font-[500] text-[22px] leading-[28px]  text-[#323434]">Years of experience</p>
+              </div>
+              <div className="flex flex-col items-center gap-4 px-[32px] w-[286px] h-[160px] bg-[#9AD983] rounded-[16px]">
+                <h1 className="w-[113px] h-[52px] font-['Inter'] not-italic font-bold text-[45px] leading-[52px] mt-10 text-[#323434]">12K</h1>
+                <p className="w-[188px] h-7 font-['Inter'] not-italic font-[500] text-[22px] leading-[28px]  text-[#323434]">Total destinations</p>
+              </div>
+              <div className="flex flex-col items-center gap-4 px-[32px] w-[286px] h-[160px] bg-[#9AD983] rounded-[16px]">
+                <h1 className="w-[113px] h-[52px] font-['Inter'] not-italic font-bold text-[45px] leading-[52px] mt-10 text-[#323434]">4.9</h1>
+                <p className="w-[170px] h-7 font-['Inter'] not-italic font-[500] text-[22px] leading-[28px]  text-[#323434]">Average rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div></div>
+      </div>
     </main>
   );
 }
