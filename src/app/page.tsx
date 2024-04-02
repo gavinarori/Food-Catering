@@ -362,8 +362,8 @@ export default function Home() {
           </div>
           </div>
         </div>
-        <div className=" flex flex-row cursor-pointer  items-start p-0 gap-4 mt-[578px] ml-[672px] w-24 h-10 ">
-          <button className="w-10 h-10 bg-[#9AD983] rounded-[100px]">
+        <div className=" flex flex-row   items-start p-0 gap-4 mt-[578px] ml-[672px] w-24 h-10 ">
+          <button className="w-10 h-10 cursor-pointer bg-[#9AD983] rounded-[100px]">
           <svg width="15" className="ml-3" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14.5 5H2M2 5L6 9M2 5L6 1" stroke="white" stroke-width="1.5"/>
           </svg>
@@ -398,7 +398,52 @@ export default function Home() {
           </div>
         </div>
 
-        <div></div>
+        <div className="flex flex-col justify-center items-start px-16 py-[100px] gap-12 top-[1534px] w-[1440px] h-[800px]">
+          <div className="flex flex-row flex-wrap content-start p-0 gap-8 w-[1240px] h-[672px]">
+            <div className="w-[498px] h-[188px]">
+              <h1 className=" w-[498px] h-[52px] let-0 top-0 font-['Inter'] text-[45px] leading-[52px] font-bold text-[#323434]">Plan Event With Us</h1>
+              <p className=" w-[498px] h-[48px] let-0 top-[68px] font-['Inter'] not-italic text-[16px] leading-6  font-[400] text-[#88888]"> This lesson provides a basic framework for conducting a recipe <br /> demonstration</p>
+              <button className="flex flex-row justify-center items-center p-4 gap-2 mt-4 w-[173px] h-[56px] left-0 top-[132px] bg-[#9AD983] rounded-[12px]">
+             <p className="text-[#fff]">Book a call</p> 
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6.5" cy="7" r="3" stroke="white" stroke-width="1.5" stroke-linecap="square"/>
+                    <path d="M12.5 7H21.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="18.5" cy="17" r="3" transform="rotate(-180 18.5 17)" stroke="white" stroke-width="1.5" stroke-linecap="square"/>
+                    <path d="M12.5 17H3.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              </button>
+            </div>
+
+            <div className="w-[392px] h-[320px] rounded-[12px]">
+              <img src="/Frame.png" alt="" />
+            </div>
+            <div className="w-[286px] h-[320px] rounded-[12px]">
+            <img src="/Frame (1).png" alt="" />
+            </div>
+            <div className="w-[286px] h-[320px] rounded-[12px]">
+            <img src="/Frame (2).png" alt="" />
+            </div>
+            <div className="w-[392px] h-[320px] rounded-[12px]">
+            <img src="/Frame (3).png" alt="" />
+            </div>
+            <div className="w-[498px] h-[320px] rounded-[12px]">
+            <img src="/Frame (4).png" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+        <div className="flex flex-col justify-center items-center px-16 -mt-[] gap-12 w-[1440px] h-[484px]">
+          <div className="p-0 gap-2 w-[492px]  h-[84px]">
+            <h1 className="font-['Inter'] text-center font-semibold text-[45px] text-[#323434] w-[492px] h-[52px] ">Pricing</h1>
+            <p className="w-[492px] h-[48px] font-['Inter'] mt-3 text-center text-[16px] leading-[24px] tracking-[0.15px] ">Choose the plan that works best for you</p>
+          </div>
+          <div className="flex-row flex-wrap content-center items-center p-0 gap-8 w-[1240px] h-[224px]">
+            <div className="flex flex-row items-start px-[32px] py-6 gap-[10px] w-[604px] h-[224px] bg-[#9AD983] rounded-[12px]">
+
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
